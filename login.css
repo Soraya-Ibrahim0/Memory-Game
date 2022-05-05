@@ -1,0 +1,61 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url('img/brain.jpg');
+    background-size: cover;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 350px;
+    height: 320px;
+    background: rgba(195, 112, 112, 0.5);
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+h2{
+    color: rgb(41, 38, 38);
+    text-align:center;
+    margin-top: 30px;
+}
+input[type="text"],[type="password"]{
+    position: absolute;
+    outline: none;
+    border: none;
+    background: none;
+    width: 250px;
+    height: 35px;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 5px;
+    color: #fff;
+}
+input[type="text"]{
+    top: 100px;
+    left: 50px;
+}
+input[type="password"]{
+    top: 170px;
+    left: 50px;
+}
+a{
+    position: absolute;
+    color: #000;
+    top: 260px;
+    left: 110px;
+    width: 130px;
+    height: 35px;
+    background: darkseagreen;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    background: #000;
+    color: #fff;
+}
