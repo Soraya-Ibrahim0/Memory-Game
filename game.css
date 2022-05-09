@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    background-color:darkseagreen;
+    font-size: 30px;
+}
+
+.main {
+    width: 660px;
+    margin: 30px auto;
+    background-color:cornsilk;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+div {
+    border-radius: 5px;
+    /*width: 23%;*/
+    height: 85px;
+    /*background-color: #0ca01a;*/
+    background: url(moon.gif);
+    float: left;
+    margin: 2%;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out;
+}
+
+img {
+    background-color: #fff;
+    height: 100px;
+    width: 100px;
+    color: #fff;
+    font-size: 50px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
